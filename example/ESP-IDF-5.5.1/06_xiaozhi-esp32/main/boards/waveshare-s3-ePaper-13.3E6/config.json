@@ -1,0 +1,9 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "esp32-s3-ePaper-13.3E6",
+            "sdkconfig_append": []
+        }
+    ]
+}

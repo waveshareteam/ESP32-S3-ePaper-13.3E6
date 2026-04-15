@@ -1,0 +1,39 @@
+dependencies:
+  chmorgan/esp-audio-player:
+    dependencies: []
+    source:
+      path: C:\Users\ad\Desktop\ESP32-S3-ePaper-Driver-Board-demo\ESP32-S3-ePaper-13.3E6\example\ESP-IDF-5.5.1\03_Music\components\chmorgan__esp-audio-player
+      type: local
+    version: 1.0.7
+  chmorgan/esp-libhelix-mp3:
+    component_hash: cbb76089dc2c5749f7b470e2e70aedc44c9da519e04eb9a67d4c7ec275229e53
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.1.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.3
+  espressif/esp_codec_dev:
+    component_hash: 0d9e9bc288156eb55f79338d312e1ebf8c9dfbd5e7d13ef0f20ccb031b4e15cf
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.5.4
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+direct_dependencies:
+- chmorgan/esp-audio-player
+- chmorgan/esp-libhelix-mp3
+- espressif/esp_codec_dev
+- idf
+manifest_hash: a0edb7844f86e8019dbb6acbf46c352b8692ad93726d65dd5922ac7c700104b7
+target: esp32s3
+version: 2.0.0
