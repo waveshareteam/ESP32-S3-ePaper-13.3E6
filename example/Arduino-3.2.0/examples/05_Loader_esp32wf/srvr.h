@@ -24,8 +24,8 @@
 #include "html.h"    // HTML page of the tool
 
 /* SSID and password of your WiFi net ----------------------------------------*/
-const char *ssid = "lin"; //"your ssid";
-const char *password = "12345678";   //"your password";
+const char *ssid = "waveshare"; //"your ssid";
+const char *password = "waveshare0755";   //"your password";
 
 /* Static IP address Settings ------------------------------------------------*/
 IPAddress staticIP(192, 168, 61, 159);
