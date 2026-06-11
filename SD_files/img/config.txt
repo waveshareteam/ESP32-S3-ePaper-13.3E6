@@ -1,0 +1,6 @@
+{
+  "timer": 1200,
+  "ai_model": "ep-20260112110257-btnv9",
+  "ai_url": "https://ark.cn-beijing.volces.com/api/v3/images/generations",
+  "ai_key": "d7885917-94f4-4644-8f2b-1e7ec441b774"
+}
